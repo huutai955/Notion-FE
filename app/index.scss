@@ -1,0 +1,23 @@
+@import "./variables.scss";
+
+.slide-item {
+  &:hover .ai-icon {
+    color: $purple-c2;
+  }
+  &:hover .docs-icon {
+    color: $yellow-c2;
+  }
+  &:hover .wiki-icon {
+    color: $red-c2;
+  }
+  &:hover .projects-icon {
+    color: $blue-c5;
+  }
+  &:hover .calendar-icon {
+    color: $orange-c2;
+  }
+
+  &:hover span {
+    color: black;
+  }
+}
