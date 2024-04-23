@@ -18,33 +18,73 @@ export default function Home() {
       icon: <AIIcons activeIcon={activeIcon} />,
       title: "AI",
       description: "Ask him anything you want. Notion answers you.",
-      imageURL: "/ai.png",
+      imageURL: (
+        <Image
+          unoptimized={true}
+          height={500}
+          width={800}
+          src={"/ai.png"}
+          alt="Slide"
+        />
+      ),
     },
     {
       icon: <DocumentIcon activeIcon={activeIcon} />,
       title: "Documents",
       description:
         "Simple, powerful, elegant. New generation of notes and documents.",
-      imageURL: "/document.png",
+      imageURL: (
+        <Image
+          unoptimized={true}
+          height={500}
+          width={800}
+          src={"/document.png"}
+          alt="Slide"
+        />
+      ),
     },
     {
       icon: <WikiIcon activeIcon={activeIcon} />,
       title: "Wiki",
       description:
         "Centralize your knowledge. No more desperate searching for answers.",
-      imageURL: "/wiki.png",
+      imageURL: (
+        <Image
+          unoptimized={true}
+          height={500}
+          width={800}
+          src={"/wiki.png"}
+          alt="Slide"
+        />
+      ),
     },
     {
       icon: <ProjectIcon activeIcon={activeIcon} />,
       title: "Projects",
       description: "Manage complex projects, avoiding chaos.",
-      imageURL: "/projects.png",
+      imageURL: (
+        <Image
+          unoptimized={true}
+          height={500}
+          width={800}
+          src={"/projects.png"}
+          alt="Slide"
+        />
+      ),
     },
     {
       icon: <CalendarIcon activeIcon={activeIcon} />,
       title: "Calendar concept",
       description: "Manage your time and projects in one place",
-      imageURL: "/calendar.png",
+      imageURL: (
+        <Image
+          unoptimized={true}
+          height={500}
+          width={800}
+          src={"/calendar.png"}
+          alt="Slide"
+        />
+      ),
     },
   ];
   const [slideActive, setSlideActive] = useState<Slide>(slideList[0]);
@@ -187,12 +227,7 @@ export default function Home() {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.4 }}
             >
-              <Image
-                height={500}
-                width={800}
-                src={slideActive.imageURL}
-                alt="Slide"
-              />
+              {slideActive.imageURL}
             </motion.div>
           </AnimatePresence>
         </div>
