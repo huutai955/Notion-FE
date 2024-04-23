@@ -23,7 +23,7 @@ export default function DocumentIcon({ activeIcon }: Props) {
         stroke="currentColor"
         stroke-width="1.824"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       ></path>
     </svg>
   );

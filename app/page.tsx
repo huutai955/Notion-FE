@@ -231,6 +231,166 @@ export default function Home() {
             </motion.div>
           </AnimatePresence>
         </div>
+
+        {/* Brands Name */}
+        <div className="max-w-full mt-[7.5rem] m-auto text-center flex flex-col gap-2">
+          <h2 className="text-[2.813rem] font-[570] tracking-[-0.125rem] leading-10 ">
+            Millions run on Notion every day
+          </h2>
+          <h3 className="text-base text-black-c1">
+            Powering the world’s best teams, from next-generation startups
+            <br /> to established enterprises.
+          </h3>
+          <div className="max-w-[50.625rem] m-auto mt-8 flex flex-wrap justify-center items-center gap-10">
+            <Image
+              unoptimized={true}
+              className="h-fit"
+              width={89}
+              height={27}
+              src={"/figma.png"}
+              alt="Brands"
+            />
+            <Image
+              unoptimized={true}
+              className="h-fit"
+              width={97}
+              height={25.55}
+              src={"/pixar.png"}
+              alt="Brands"
+            />
+            <Image
+              unoptimized={true}
+              className="h-fit"
+              width={129}
+              height={19.25}
+              src={"/doordash.png"}
+              alt="Brands"
+            />
+            <Image
+              unoptimized={true}
+              className="h-fit"
+              width={69}
+              height={19.25}
+              src={"/nike.png"}
+              alt="Brands"
+            />
+            <Image
+              unoptimized={true}
+              className="h-fit"
+              width={80}
+              height={31.3}
+              src={"/amazon.png"}
+              alt="Brands"
+            />
+            <Image
+              unoptimized={true}
+              className="h-fit"
+              width={101}
+              height={24.86}
+              src={"/pinterest_logo.png"}
+              alt="Brands"
+            />
+            <Image
+              unoptimized={true}
+              className="h-fit"
+              width={47}
+              height={53}
+              src={"/General_Electric_logo.png"}
+              alt="Brands"
+            />
+            <Image
+              unoptimized={true}
+              className="h-fit"
+              width={71}
+              height={35}
+              src={"/uber.png"}
+              alt="Brands"
+            />
+            <Image
+              unoptimized={true}
+              className="h-fit"
+              width={82}
+              height={30.07}
+              src={"/plaid.png"}
+              alt="Brands"
+            />
+            <Image
+              unoptimized={true}
+              className="h-fit"
+              width={88}
+              height={28.17}
+              src={"/toyota.png"}
+              alt="Brands"
+            />
+              <Image
+              unoptimized={true}
+              className="h-fit"
+              width={102}
+              height={24.67}
+              src={"/snowflake_logo.png"}
+              alt="Brands"
+            />
+            <Image
+              unoptimized={true}
+              className="h-fit"
+              width={107}
+              height={23.2}
+              src={"/headspace_logo.png"}
+              alt="Brands"
+            />
+            <Image
+              unoptimized={true}
+              className="h-fit"
+              width={98}
+              height={25.67}
+              src={"/angel-list.png"}
+              alt="Brands"
+            />
+            <Image
+              unoptimized={true}
+              className="h-fit"
+              width={113}
+              height={22.16}
+              src={"/robinhood.png"}
+              alt="Brands"
+            />
+          </div>
+        </div>
+
+        {/* Tools */}
+        <div className="max-w-[26.25rem] mt-[7.5rem] m-auto text-center relative z-10">
+          <h2 className="text-[2.813rem] font-[570] tracking-[-0.125rem] leading-10 ">
+            Consolidate tools.
+            <br />
+            Cut costs.
+          </h2>
+          <Image
+            className="absolute top-[-3.438rem] right-[-13.125rem]"
+            unoptimized={true}
+            height={183}
+            width={217}
+            src={"/giant-pencil.png"}
+            alt="Slide"
+          />
+        </div>
+        <div className="w-full flex justify-center relative">
+          <Image
+            className="absolute top-[2.5rem] right-[12.188rem] mix-blend-multiply z-10"
+            unoptimized={true}
+            height={50}
+            width={613}
+            src={"/tools-strikethrough.png"}
+            alt="Slide"
+          />
+          <Image
+            className="absolute top-[1.938rem] right-[13.438rem] "
+            unoptimized={true}
+            height={78}
+            width={568}
+            src={"/tools.png"}
+            alt="Slide"
+          />
+        </div>
       </div>
     </React.Fragment>
   );
