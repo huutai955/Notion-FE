@@ -1,0 +1,19 @@
+.block-item {
+    .chevon {
+        display: none;
+    }
+    &:hover .chevon {
+        display: block;
+    }
+    &:hover .document {
+        display: none;
+    }
+}
+
+.text-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    &:focus-visible {
+        outline: none;
+    }
+}

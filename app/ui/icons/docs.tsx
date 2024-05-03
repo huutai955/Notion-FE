@@ -21,7 +21,7 @@ export default function DocumentIcon({ activeIcon }: Props) {
       <path
         d="M17.75 27.232h13.5M17.75 34.402h13.5"
         stroke="currentColor"
-        stroke-width="1.824"
+        strokeWidth="1.824"
         strokeLinecap="round"
         strokeLinejoin="round"
       ></path>
